@@ -1,9 +1,16 @@
 /* Global properties ======================================================== */
 html, body {width:100%; padding:0; margin:0;}
 
+@font-face {
+    font-family: 'Purisa';
+    src: url('../fonts/Purisa.eot'); /* For IE */
+    src: local('Purisa'),
+         url('../fonts/Purisa.ttf') format('truetype');
+}
+
 body { 	 
-	font: 14px/22px Georgia, "Times New Roman", Times, serif;
-	color:#838180;
+	font-size: 14px/22px; font-family: Purisa, "Times New Roman", Times, serif;
+	color:#bf8b37;
 	min-width:1000px;
 	background: #000000;
 }
@@ -33,6 +40,8 @@ a:hover {text-decoration:none;}
 .text-2 {font-size:16px; line-height:25px; color:#000; font-style:italic;}
 
 h2 { font-size:40px; line-height:50px; color:#63d; font-weight:bold; font-family: 'Cabin Sketch', cursive; letter-spacing:-1px;}
+h3 { margin:60px 50px 0px 90px; font-size:25px; line-height:40px; color:#0072ff; font-family: 'Purisa,arial';}
+/** andy color 6a2 **/
 
 ul {margin:0; padding:0;list-style-image:none;}
 ul.list-1 li {padding:0px 0 0px 14px; line-height:22px; background:url(../images/marker-1.gif) 0 9px no-repeat;}
@@ -84,6 +93,7 @@ ul.list-2 li a:hover {color:#0072ff;}
 header {width:1000px; margin:0 auto; z-index:101; right 0 no-repeat; }
 
 h1 {margin:27px 0 0 63px; display:inline-block; z-index:100;}
+
 
 nav { z-index:100; background:url(../images/slider-bg.png) 0 0 no-repeat; margin:0px 0px 0 0px; height:571px; overflow:hidden; padding:0px;}
 
