@@ -40,7 +40,7 @@ a:hover {text-decoration:none;}
 .text-2 {font-size:16px; line-height:25px; color:#000; font-style:italic;}
 
 h2 { font-size:40px; line-height:50px; color:#63d; font-weight:bold; font-family: 'Cabin Sketch', cursive; letter-spacing:-1px;}
-h3 { margin:60px 50px 0px 90px; font-size:25px; line-height:40px; color:#0072ff; font-family: 'Purisa,arial';}
+h3 { margin:0px 0px 0px 0px; font-size:20px; line-height:30px; color:#0072ff; font-family: 'Purisa,arial';}
 /** andy color 6a2 **/
 
 ul {margin:0; padding:0;list-style-image:none;}
@@ -62,12 +62,12 @@ ul.list-2 li a:hover {color:#0072ff;}
 .img-indent {float:left; margin:3px 20px 0px 0;}	
 .last {margin-right:0px !important;}
 
-.top-1 {margin-top:44px;}
-.top-2 {margin-top:13px;}
-.top-3 {margin-top:12px;}
-.top-4 {margin-top:30px;}
-.top-5 {margin-top:22px;}
-.top-6 {margin-top:40px;}
+.top-1 {margin-top:4px;}
+.top-2 {margin-top:3px;}
+.top-3 {margin-top:2px;}
+.top-4 {margin-top:0px;}
+.top-5 {margin-top:2px;}
+.top-6 {margin-top:0px;}
 
 .left-1 { margin-left:13px;}
 
@@ -94,8 +94,7 @@ header {width:1000px; margin:0 auto; z-index:101; right 0 no-repeat; }
 
 h1 {margin:27px 0 0 63px; display:inline-block; z-index:100;}
 
-
-nav { z-index:100; background:url(../images/slider-bg.png) 0 0 no-repeat; margin:0px 0px 0 0px; height:571px; overflow:hidden; padding:0px;}
+nav { z-index:100; background:url(../images/slider-bg-half.png) 0 0 no-repeat; margin:0px 0px 0 0px; height:300px; overflow:hidden; padding:0px;}
 
 ul.menu {margin:10px 0px 0 83px; display:inline-block;}
 ul.menu li {float:left; line-height:50px; margin:0px 35px 0px 0px; }
@@ -116,12 +115,12 @@ ul.menu li:hover a , ul.menu li.current a { color:#000;}
 .lists {overflow:hidden; margin-top:12px;}
 .lists ul {float:left; width:270px; margin-right:20px;}
 
-.table {width:560px;color:#000; margin-bottom:6px;} 
+.table {width:560px;color:#000; margin-bottom:0px;} 
 .table tr {border-top:#d6d6d6 1px solid;}
-.table tr th {width:145px; text-align:left; font-weight:bold; padding-bottom:13px;}
+.table tr th {width:145px; text-align:left; font-weight:bold; padding-bottom:0px;}
 .table tr th.last {width:125px;}
 .table tr:first-child {border-top:none;}
-.table tr td {padding:8px 0 13px 0;}
+.table tr td {padding:0px 0 0px 0;}
 .table tr td span {display:block;}
 
 .box-2 { float:left; width:270px; margin-right:20px; color:#000;}
