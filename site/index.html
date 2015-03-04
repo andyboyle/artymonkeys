@@ -12,119 +12,139 @@
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/tms-0.4.1.js"></script>
     <script>
-		$(document).ready(function(){				   	
-			$('.slider')._TMS({
-				show:0,
-				pauseOnHover:true,
-				prevBu:'.prev',
-				nextBu:'.next',
-				playBu:false,
-				duration:800,
-				preset:'fade',
-				pagination:true,
-				pagNums:false,
-				slideshow:7000,
-				numStatus:false,
-				banners:false,
-				waitBannerAnimation:false,
-				progressBar:false
-			})		
-		});
-	</script>
-	<!--[if lt IE 8]>
-       <div style=' clear: both; text-align:center; position: relative;'>
-         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        $(document).ready(function () {
+            $('.slider')._TMS({
+                show: 0,
+                pauseOnHover: true,
+                prevBu: '.prev',
+                nextBu: '.next',
+                playBu: false,
+                duration: 800,
+                preset: 'fade',
+                pagination: true,
+                pagNums: false,
+                slideshow: 7000,
+                numStatus: false,
+                banners: false,
+                waitBannerAnimation: false,
+                progressBar: false
+            })
+        });
+    </script>
+    <!--[if lt IE 8]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+            <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"
+                 height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
         </a>
-      </div>
+    </div>
     <![endif]-->
     <!--[if lt IE 9]>
-   		<script type="text/javascript" src="js/html5.js"></script>
-    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
-	<![endif]-->
+    <script type="text/javascript" src="js/html5.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
 </head>
 <body>
-  <div class="main">
-  <!--==============================header=================================-->
-  <header>
-       <table style="width:100%">
-         <tr>
-           <td>
-              <a href="index.html"><img src="images/artyMonkeysLogoCrop.jpg" height="250" width="343" alt=""></a>
-           </td>
-           <td>
-            <nav>
-              <div id="slide">
-                <div class="slider">
-                    <ul class="items">
-                        <li><img src="images/slider-1-half.jpg" alt="" height="460" width="215" /></li>
-                        <li><img src="images/slider-2-half.jpg" alt="" height="460" width="215" /></li>
-                        <li><img src="images/slider-3-half.jpg" alt="" height="460" width="215" /></li>
-                    </ul>
-                </div>
-                <a href="#" class="prev"></a><a href="#" class="next"></a>
-              </div>
-            </nav>
-           </td>
-        </tr>
-       </table>
-       <ul class="menu">
-                <li class="current"><a href="index.html" class="clr-1">Home</a></li>
-                <li><a href="about.html" class="clr-2">About</a></li>
-                <li><a href="schedule.html" class="clr-3">Schedule</a></li>
-                <li><a href="gallery.html" class="clr-4">Gallery</a></li>
-                <li><a href="contacts.html" class="clr-5">Contacts</a></li>
+<div class="main">
+    <!--==============================header=================================-->
+    <header class="middle">
+        <table>
+            <tr>
+                <td>
+                    <a href="index.html"><img src="images/artyMonkeysLogoCrop.jpg" height="250" width="343" alt=""></a>
+                </td>
+                <td>
+                    <nav>
+                        <div id="slide">
+                            <div class="slider">
+                                <ul class="items">
+                                    <li><img src="images/slider-1-half.jpg" alt="" height="460" width="215"/></li>
+                                    <li><img src="images/slider-2-half.jpg" alt="" height="460" width="215"/></li>
+                                    <li><img src="images/slider-3-half.jpg" alt="" height="460" width="215"/></li>
+                                </ul>
+                            </div>
+                            <a href="#" class="prev"></a><a href="#" class="next"></a>
+                        </div>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+        <ul class="menu">
+            <li class="current"><a href="index.html" class="clr-1">Home</a></li>
+            <li><a href="about.html" class="clr-2">About</a></li>
+            <li><a href="schedule.html" class="clr-3">Schedule</a></li>
+            <li><a href="gallery.html" class="clr-4">Gallery</a></li>
+            <li><a href="contacts.html" class="clr-5">Contacts</a></li>
         </ul>
-  </header>
-  <!--==============================content================================-->
+    </header>
+    <aside class="leftaside">
+        <img src="images/rainbow-handprints-lhs.png">
+    </aside>
+    <aside class="rightaside">
+        <img src="images/rainbow-handprints-rhs.png">
+    </aside>
+    <!--==============================content================================-->
     <section id="content">
         <div class="pad-1">
-	</div>
-        <div class="container_12">	
-          <div class="grid_4 bot-1">
-            <a href="#" class="link-1 top-3">Events</a>
-            <p>
-            <p>Arty Monkeys will soon be bringing classes to the Stirling area that bring fun and games to pre-school children.</p>
-            <p>Details will follow ...</p>
-            <a href="#" class="link-1 top-3">News Archive</a>
-            <p>News to follow ...</p>
-          </div>
-          <div class="grid_8">
-            <div class="block-1">
-            	<div class="block-1-shadow">
-                	<h2 class="clr-6 p4">Our Gallery</h2>
-                    <div class="box-1">
-                    	<a href="#" class="img-border"><img src="images/img1.jpg" alt=""></a>
-                    	<p class="text-2">Jennifer, 10 years</p>
-                    </div>
-                    <div class="box-1 last">
-                    	<a href="#" class="img-border"><img src="images/img2.jpg" alt=""></a>
-                    	<p class="text-2">Martin, 13 years</p>
-                    </div>
-                    <div class="clear p5"></div>
-                    <div class="box-1">
-                    	<a href="#" class="img-border"><img src="images/img3.jpg" alt=""></a>
-                    	<p class="text-2">Sebastian, 14 years</p>
-                    </div>
-                    <div class="box-1 last">
-                    	<a href="#" class="img-border"><img src="images/img4.jpg" alt=""></a>
-                    	<p class="text-2">Fiona, 8 years</p>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="pad-2">
-                    	<a href="#" class="link-2">Full Gallery</a>
+        </div>
+        <div class="container_12">
+            <div class="grid_4 bot-1">
+                <a href="#" class="link-1 top-3">Events</a>
+
+                <p>
+
+                <p>Arty Monkeys will soon be bringing classes to the Stirling area that bring fun and games to
+                    pre-school children.</p>
+
+                <p>Details will follow ...</p>
+                <a href="#" class="link-1 top-3">News Archive</a>
+
+                <p>News to follow ...</p>
+            </div>
+            <div class="grid_8">
+                <div class="block-1">
+                    <div class="block-1-shadow">
+                        <h2 class="clr-6 p4">Our Gallery</h2>
+
+                        <div class="box-1">
+                            <a href="#" class="img-border"><img src="images/img1.jpg" alt=""></a>
+
+                            <p class="text-2">Jennifer, 10 years</p>
+                        </div>
+                        <div class="box-1 last">
+                            <a href="#" class="img-border"><img src="images/img2.jpg" alt=""></a>
+
+                            <p class="text-2">Martin, 13 years</p>
+                        </div>
+                        <div class="clear p5"></div>
+                        <div class="box-1">
+                            <a href="#" class="img-border"><img src="images/img3.jpg" alt=""></a>
+
+                            <p class="text-2">Sebastian, 14 years</p>
+                        </div>
+                        <div class="box-1 last">
+                            <a href="#" class="img-border"><img src="images/img4.jpg" alt=""></a>
+
+                            <p class="text-2">Fiona, 8 years</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="pad-2">
+                            <a href="#" class="link-2">Full Gallery</a>
+                        </div>
                     </div>
                 </div>
+                <!--==============================footer=================================-->
+                <footer>
+                    <p>© 2012 Art School</p>
+
+                    <p>Website Template by <a class="link" href="http://www.templatemonster.com/" target="_blank"
+                                              rel="nofollow">www.templatemonster.com</a></p>
+                </footer>
             </div>
-            <!--==============================footer=================================-->
-            <footer>
-                <p>© 2012 Art School</p>
-                <p>Website Template by <a class="link" href="http://www.templatemonster.com/" target="_blank" rel="nofollow">www.templatemonster.com</a></p>
-            </footer>	  
-          </div>
-          <div class="clear"></div>
+            <div class="clear"></div>
         </div>
-    </section>    
-   </div>      
+    </section>
+</div>
 </body>
 </html>
